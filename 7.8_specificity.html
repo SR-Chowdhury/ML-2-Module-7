@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-2 | Module 7 - Specificity</title>
+</head>
+<style>
+    a:visited {
+        color: blue;
+    }
+</style>
+<body>
+    <div class="div">
+        <h1>Specificity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element.</h1>
+        <ul>
+            <li>First, it gives priority <strong><i>external css</i></strong></li>
+            <li>Second, it will check is there any <strong><i>internal CSS</i></strong>; if then it will replace first one</li>
+            <li>Third, it will check is there any <strong><i>embedded or inline CSS</i></strong>; if then it will be the final</li>
+            <li>Forth, it will check if there any css properties value is used as <strong><i>!important</i></strong>; then it will be the final and rest of all are ignored.</li>
+        </ul>
+        <h1>Also we can learn more about <a href="https://specificity.keegan.st/">Specificity Calculator</a></h1>
+    </div>
+</body>
+</html>
