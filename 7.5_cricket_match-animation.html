@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 2 | Module 7</title>
+</head>
+<style>
+    .field {
+        /* height: 450px;*/
+        width: 700px; 
+        border-radius: 50px;
+        border-right: 5px solid #ddd;
+    }
+    .field:hover .bat {
+        transform: rotate(-47deg);
+        transform-origin: top right;
+    }
+    .field:hover .ball {
+        transform: translate(500px, -60px);
+    }
+    .bat {
+        transition: transform 0.5s ease-in;
+    }
+    .ball {
+        width: 50px;
+        height: 50px;
+        background: red;
+        border-radius: 25px;
+        position: relative;
+        left: 315px;
+        transition: transform 0.5s ease-out;
+        transition-delay: 0.5s;
+    }
+
+</style>
+<body>
+    <h1>Cricket ball animation</h1>
+    <div class="field">
+        <img class="bat" src="./cricket-bat.png" alt="">
+        <div class="ball">
+            
+        </div>
+    </div>
+</body>
+</html>

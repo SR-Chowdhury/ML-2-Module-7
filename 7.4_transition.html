@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML2-M7-Transition CSS</title>
+</head>
+<style>
+    .box {
+        height: 250px;
+        width: 250px;
+        border: 1px solid red;
+        text-align: center;
+        transition: width 1s ease-in, height 1s ease-out, transform 5s;
+    }
+    .div1:hover .box{
+        height: 300px;
+        width: 300px;
+        transform: scale(0.5) rotate(60deg);
+    }
+</style>
+<body>
+    <h1>CSS transition property: CSS transitions allows you to change property values smoothly, over a given duration.</h1>
+    <p>In this chapter you will learn about the following properties:</p>
+    <ul>
+        <li>transition</li>
+        <li>transition-delay</li>
+        <li>transition-duration</li>
+        <li>transition-property</li>
+        <li>transition-timing-function</li>
+    </ul>
+    <div class="div1">
+        <div class="box">
+            <h2>CSS Transition</h2>
+        </div>
+    </div><hr>
+</body>
+</html>
